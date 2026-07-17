@@ -329,6 +329,7 @@ All bundled models are open-source:
 - **Issues**: [GitHub Issues](https://github.com/Sheckee/2B/issues)
 - **Discussions**: [GitHub Discussions](https://github.com/Sheckee/2B/discussions)
 - **Docs**: [Full Documentation](docs/)
+- **SAMS Office World Prompt**: [Pixel Office Edition](docs/sams-office-world-prompt.md)
 
 ## 🙏 Acknowledgments
 
