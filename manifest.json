@@ -1,0 +1,13 @@
+{
+  "id": "obsidian-ai-agent-2b",
+  "name": "2B - Offline AI Assistant",
+  "version": "0.1.0",
+  "minAppVersion": "1.5.0",
+  "description": "Offline Claude-style AI agent with vault RAG, multi-step reasoning, and tool execution. No APIs, no cloud, 100% private.",
+  "author": "Sheckee",
+  "authorUrl": "https://github.com/Sheckee",
+  "fundingUrl": "https://github.com/Sheckee/2B",
+  "isDesktopOnly": false,
+  "mobile": true,
+  "icon": "brain"
+}
