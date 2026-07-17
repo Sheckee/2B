@@ -1,0 +1,19 @@
+{
+  "name": "obsidian-offline-agent-review",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Architecture blueprint and production review for an offline Obsidian Mobile AI agent.",
+  "type": "module",
+  "engines": {
+    "node": ">=20 <23"
+  },
+  "scripts": {
+    "start": "node server/healthcheck.mjs",
+    "healthcheck": "node -e \"fetch('http://127.0.0.1:' + (process.env.PORT || 3000) + '/health').then(r => { if (!r.ok) process.exit(1); return r.json(); }).then(j => { if (j.status !== 'ok') process.exit(1); })\"",
+    "typecheck": "tsc --noEmit",
+    "test": "npm run typecheck"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.4"
+  }
+}
